@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cv_main_claim_001",
+    "question": "What is the main argument or central claim of this research paper?",
+    "expected_pages": [1, 3, 5, 8],
+    "required_terms": [
+      "computer vision",
+      "human data",
+      "extraction",
+      "privacy",
+      "surveillance"
+    ]
+  },
+  {
+    "id": "cv_problem_001",
+    "question": "What problem does this paper identify in computer vision research regarding human data and surveillance?",
+    "expected_pages": [1, 2, 5],
+    "required_terms": [
+      "human bodies",
+      "body parts",
+      "surveillance",
+      "biometric",
+      "public distrust"
+    ]
+  },
+  {
+    "id": "cv_trend_001",
+    "question": "What changes were observed in computer vision research from the 1990s to the 2010s in relation to surveillance?",
+    "expected_pages": [1, 3, 4],
+    "required_terms": [
+      "fivefold",
+      "surveillance-enabling patents",
+      "non-surveillant",
+      "stable",
+      "increased"
+    ]
+  }
+]

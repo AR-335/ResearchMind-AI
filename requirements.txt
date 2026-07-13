@@ -1,0 +1,9 @@
+streamlit
+pymupdf
+faiss-cpu
+nltk
+numpy
+requests
+sentence-transformers
+rank-bm25
+scikit-learn
