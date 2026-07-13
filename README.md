@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # ResearchMind-AI
 
 ResearchMind-AI is a local evidence-grounded PDF question-answering system built with Streamlit, FAISS, BM25, sentence-transformer embeddings, CrossEncoder reranking, sentence-level evidence extraction, and Ollama.
@@ -98,16 +97,14 @@ ResearchMind-AI/
 
 ## How It Works
 
-ResearchMind-AI extracts text from a PDF and keeps track of page numbers.  
-The extracted text is split into chunks for retrieval.
+ResearchMind-AI extracts text from a PDF and keeps track of page numbers. The extracted text is split into chunks for retrieval.
 
 For each user question, the system retrieves candidate chunks using:
 
 1. FAISS semantic search
 2. BM25 keyword search
 
-The retrieved chunks are reranked using a CrossEncoder model.  
-Then the most relevant evidence sentences are extracted and sent to the local LLM.
+The retrieved chunks are reranked using a CrossEncoder model. Then the most relevant evidence sentences are extracted and sent to the local LLM.
 
 This helps reduce hallucination because the LLM answers only from selected document evidence.
 
@@ -265,4 +262,3 @@ This project demonstrates a complete local RAG workflow:
 - Source attribution
 - Streamlit UI
 - Evaluation workflow
-EOF
