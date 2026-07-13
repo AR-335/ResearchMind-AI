@@ -24,3 +24,6 @@ Thumbs.db
 EOF
 # Local PDF documents
 data/**/*.pdf
+
+# Backup files
+backup/
